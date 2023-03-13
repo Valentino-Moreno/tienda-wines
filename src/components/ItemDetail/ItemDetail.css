@@ -1,0 +1,40 @@
+body{
+    background-color: #c0b283ce !important; 
+}
+.gen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+p{
+    text-align: justify;
+    max-width: 80%;
+}
+.tarjeta{
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+    align-items: flex-start !important;    
+    align-content: center !important;
+    justify-content: center !important;
+}
+.child{
+    /* margin: 5rem; */
+    padding: 2rem;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1rem;
+}
+.foto{
+    /* height: 20rem; */
+    height: 20em;
+}
+h2{
+    padding-top: 1rem;
+}

@@ -1,0 +1,19 @@
+.hero{
+    height: 25rem;
+    background-image: linear-gradient(rgba(0.5,0.5,0.5,0.2),rgba(0.5,0.5,0.5,0.2)), url(../../img/MendozaFondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    
+}
