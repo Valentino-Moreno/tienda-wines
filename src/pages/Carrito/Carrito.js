@@ -34,7 +34,7 @@ const Carrito = () => {
         cart.map(product => <CartItem key={cart.id} product={product}/>)
       }
       </table></div>
-      <p>total : $ {precioTotal()} <Button className='btn-success' style={{marginLeft:'0.5rem'}} as={Link} to='/productos'>Seguir comprando</Button></p>        
+      <p>total : $ {precioTotal()} <Button className='btn-success' style={{marginLeft:'0.5rem'}} as={Link} to='/productos'>Seguir comprando</Button><Button className='btn-success' style={{marginLeft:'0.5rem'}} as={Link} to='/shop'>Finalizar Compra</Button></p>        
 
     </div>
 
